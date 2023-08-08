@@ -1,5 +1,5 @@
 const reviveEntries = () => {
-    let entries = localStorage.getItem("user-Entries");
+    let entries = localStorage.getItem("user-Entries"); 
     return entries ? JSON.parse(entries) : [];
   };
   
